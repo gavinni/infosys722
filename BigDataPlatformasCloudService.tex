@@ -1,0 +1,54 @@
+%File mb-bibtex.tex, then \jobname = mb-bibtex
+\RequirePackage{filecontents}        % loading package filecontents
+% writing file \jobname.bib, for example mb-bibtex.bib.
+\begin{filecontents*}{\jobname.bib}
+@book{white2012hadoop,
+  title={Hadoop: The definitive guide},
+  author={White, Tom},
+  year={2012},
+  publisher={" O'Reilly Media, Inc."}
+}
+@inproceedings{agrawal2011big,
+  title={Big data and cloud computing: current state and future opportunities},
+  author={Agrawal, Divyakant and Das, Sudipto and El Abbadi, Amr},
+  booktitle={Proceedings of the 14th International Conference on Extending Database Technology},
+  pages={530--533},
+  year={2011},
+  organization={ACM}
+}
+@article{manyika2011big,
+  title={Big data: The next frontier for innovation, competition, and productivity},
+  author={Manyika, James and Chui, Michael and Brown, Brad and Bughin, Jacques and Dobbs, Richard and Roxburgh, Charles and Byers, Angela H},
+  year={2011}
+}
+\end{filecontents*}
+
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode\usepackage{apacite}
+\usepackage{apacite}							% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Hadoop Challenges in Big Data and Cloud Era}
+\author{Gavin Ni\thanks{Student ID: 2566358 Email: jni001@ec.auckland.ac.nz}}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  Living in this fast changing cloud era, not only enterprise customers but also government customers prefer hassle-free cloud services e.g. Software as a Service(SaaS), Platform as a Service(PaaS) and Infrastructure as a Service(IaaS) than the traditional way of buying hardwares and softwares stacks before they can even deploying the service. This trend is particular true to Big Data area e.g. Hadoop system, which requires a fairly large number of hardware resources and deeper knowledge of system administrative skills before they can deploy and use the service since the first Apache Hadoop has released from 2011\fullcite{manyika2011big}. This research reviews the technical solution of Hadoop and explores the challenges that Big Data engineers facing in order to run Hadoop as a Service(HDaaS).     
+\end{abstract}
+%\section{Introduction}
+%\subsection{}
+
+\bibliographystyle{apacite}
+\bibliography{\jobname}
+\end{document}  
