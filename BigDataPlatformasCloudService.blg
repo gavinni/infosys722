@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: BigDataPlatformasCloudService.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: BigDataPlatformasCloudService.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in manyika2011big
+You've used 5 entries,
+            6951 wiz_defined-function locations,
+            1296 strings with 11717 characters,
+and the built_in function-call counts, 9992 in all, are:
+= -- 1245
+> -- 110
+< -- 390
++ -- 426
+- -- 12
+* -- 587
+:= -- 1632
+add.period$ -- 23
+call.type$ -- 5
+change.case$ -- 87
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 314
+empty$ -- 415
+format.name$ -- 195
+if$ -- 1958
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 134
+num.names$ -- 40
+pop$ -- 233
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 684
+stack$ -- 0
+substring$ -- 481
+swap$ -- 183
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 528
+warning$ -- 1
+while$ -- 66
+width$ -- 0
+write$ -- 173
+(There was 1 warning)
