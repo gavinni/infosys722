@@ -1,143 +1,29 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Borthakur%
-\ \protect \BOthers {.}}{%
-Borthakur%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
+Mehta%
+\ \BBA {} Mehta%
+}{%
+Mehta%
+\ \BBA {} Mehta%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-borthakur2011apache}
+mehtahadoop}
 \APACinsertmetastar {%
-borthakur2011apache}%
+mehtahadoop}%
 \begin{APACrefauthors}%
-Borthakur, D.%
-, Gray, J.%
-, Sarma, J\BPBI S.%
-, Muthukkaruppan, K.%
-, Spiegelberg, N.%
-, Kuang, H.%
-\BDBL {}others%
+Mehta, S.%
+\BCBT {}\ \BBA {} Mehta, V.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2011}{}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Apache Hadoop goes realtime at Facebook} {Apache hadoop
-  goes realtime at facebook}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2011 ACM SIGMOD International
-  Conference on Management of data} {Proceedings of the 2011 acm sigmod
-  international conference on management of data}\ (\BPGS\ 1071--1080).
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Dean%
-\ \BBA {} Ghemawat%
-}{%
-Dean%
-\ \BBA {} Ghemawat%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-dean2008mapreduce}
-\APACinsertmetastar {%
-dean2008mapreduce}%
-\begin{APACrefauthors}%
-Dean, J.%
-\BCBT {}\ \BBA {} Ghemawat, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {MapReduce: simplified data processing on large clusters}
-  {Mapreduce: simplified data processing on large clusters}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Communications of the ACM}{51}{1}{107--113}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Manyika%
-\ \protect \BOthers {.}}{%
-Manyika%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-manyika2011big}
-\APACinsertmetastar {%
-manyika2011big}%
-\begin{APACrefauthors}%
-Manyika, J.%
-, Chui, M.%
-, Brown, B.%
-, Bughin, J.%
-, Dobbs, R.%
-, Roxburgh, C.%
-\BCBL {}\ \BBA {} Byers, A\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Big data: The next frontier for innovation, competition,
-  and productivity} {Big data: The next frontier for innovation, competition,
-  and productivity}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Hadoop Ecosystem: An Introduction} {Hadoop ecosystem: An
+  introduction}.{\BBCQ}
 \newblock
 
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Shvachko%
-, Kuang%
-, Radia%
-\BCBL {}\ \BBA {} Chansler%
-}{%
-Shvachko%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-shvachko2010hadoop}
-\APACinsertmetastar {%
-shvachko2010hadoop}%
-\begin{APACrefauthors}%
-Shvachko, K.%
-, Kuang, H.%
-, Radia, S.%
-\BCBL {}\ \BBA {} Chansler, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The hadoop distributed file system} {The hadoop
-  distributed file system}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {2010 IEEE 26th symposium on mass storage systems and
-  technologies (MSST)} {2010 ieee 26th symposium on mass storage systems and
-  technologies (msst)}\ (\BPGS\ 1--10).
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-White%
-}{%
-White%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-white2012hadoop}
-\APACinsertmetastar {%
-white2012hadoop}%
-\begin{APACrefauthors}%
-White, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2012}.
-\newblock
-\APACrefbtitle {Hadoop: The definitive guide} {Hadoop: The definitive guide}.
-\newblock
-\APACaddressPublisher{}{" O'Reilly Media, Inc."}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

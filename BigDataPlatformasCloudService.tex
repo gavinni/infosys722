@@ -6,7 +6,9 @@
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode\usepackage{apacite}
 \usepackage{apacite}							% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
-
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\newacronym{ran}{RAN}{Radio Access Networks}
 %SetFonts
 
 %SetFonts
@@ -20,6 +22,33 @@
   year={2012},
   publisher={" O'Reilly Media, Inc."}
 }
+@article{ratti2006mobile,
+  title={Mobile landscapes: using location data from cell phones for urban analysis},
+  author={Ratti, Carlo and Frenchman, Dennis and Pulselli, Riccardo Maria and Williams, Sarah},
+  journal={Environment and Planning B: Planning and Design},
+  volume={33},
+  number={5},
+  pages={727--748},
+  year={2006},
+  publisher={SAGE Publications}
+}
+@article{chen2014big,
+  title={Big data: a survey},
+  author={Chen, Min and Mao, Shiwen and Liu, Yunhao},
+  journal={Mobile Networks and Applications},
+  volume={19},
+  number={2},
+  pages={171--209},
+  year={2014},
+  publisher={Springer}
+}
+@inproceedings{laurila2012mobile,
+  title={The mobile data challenge: Big data for mobile computing research},
+  author={Laurila, Juha K and Gatica-Perez, Daniel and Aad, Imad and Bornet, Olivier and Do, Trinh-Minh-Tri and Dousse, Olivier and Eberle, Julien and Miettinen, Markus and others},
+  booktitle={Pervasive Computing},
+  number={EPFL-CONF-192489},
+  year={2012}
+}
 @inproceedings{agrawal2011big,
   title={Big data and cloud computing: current state and future opportunities},
   author={Agrawal, Divyakant and Das, Sudipto and El Abbadi, Amr},
@@ -28,6 +57,41 @@
   year={2011},
   organization={ACM}
 }
+@article{herrera2010evaluation,
+  title={Evaluation of traffic data obtained via GPS-enabled mobile phones: The Mobile Century field experiment},
+  author={Herrera, Juan C and Work, Daniel B and Herring, Ryan and Ban, Xuegang Jeff and Jacobson, Quinn and Bayen, Alexandre M},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={18},
+  number={4},
+  pages={568--583},
+  year={2010},
+  publisher={Elsevier}
+}
+@article{rao2003evolution,
+  title={Evolution of mobile location-based services},
+  author={Rao, Bharat and Minakakis, Louis},
+  journal={Communications of the ACM},
+  volume={46},
+  number={12},
+  pages={61--65},
+  year={2003},
+  publisher={ACM}
+}
+@book{schiller2004location,
+  title={Location-based services},
+  author={Schiller, Jochen and Voisard, Agn{\`e}s},
+  year={2004},
+  publisher={Elsevier}
+}
+@inproceedings{barkhuus2003location,
+  title={Location-Based Services for Mobile Telephony: a Study of Users' Privacy Concerns.},
+  author={Barkhuus, Louise and Dey, Anind K},
+  booktitle={Interact},
+  volume={3},
+  pages={702--712},
+  year={2003},
+  organization={Citeseer}
+}	
 @article{dean2008mapreduce,
   title={MapReduce: simplified data processing on large clusters},
   author={Dean, Jeffrey and Ghemawat, Sanjay},
@@ -37,6 +101,49 @@
   pages={107--113},
   year={2008},
   publisher={ACM}
+}
+@article{dhar2011challenges,
+  title={Challenges and business models for mobile location-based services and advertising},
+  author={Dhar, Subhankar and Varshney, Upkar},
+  journal={Communications of the ACM},
+  volume={54},
+  number={5},
+  pages={121--128},
+  year={2011},
+  publisher={ACM}
+}
+@inproceedings{gruteser2003anonymous,
+  title={Anonymous usage of location-based services through spatial and temporal cloaking},
+  author={Gruteser, Marco and Grunwald, Dirk},
+  booktitle={Proceedings of the 1st international conference on Mobile systems, applications and services},
+  pages={31--42},
+  year={2003},
+  organization={ACM}
+}
+@inproceedings{tsalgatidou2003mobile,
+  title={Mobile E-Commerce and Location-Based Services: Technology and Requirements.},
+  author={Tsalgatidou, Aphrodite and Veijalainen, Jari and Markkula, Jouni and Katasonov, Artem and Hadjiefthymiades, Stathes},
+  booktitle={ScanGIS},
+  pages={1--14},
+  year={2003},
+  organization={Citeseer}
+}	
+@inproceedings{bravo2004advanced,
+  title={Advanced positioning and location based services in 4G mobile-IP radio access networks},
+  author={Bravo, A Montilla and Moreno, Jos{\'e} Ignacio and Soto, Ignacio},
+  booktitle={Personal, Indoor and Mobile Radio Communications, 2004. PIMRC 2004. 15th IEEE International Symposium on},
+  volume={2},
+  pages={1085--1089},
+  year={2004},
+  organization={IEEE}
+}
+@inproceedings{chow2006peer,
+  title={A peer-to-peer spatial cloaking algorithm for anonymous location-based service},
+  author={Chow, Chi-Yin and Mokbel, Mohamed F and Liu, Xuan},
+  booktitle={Proceedings of the 14th annual ACM international symposium on Advances in geographic information systems},
+  pages={171--178},
+  year={2006},
+  organization={ACM}
 }
 @inproceedings{borthakur2011apache,
   title={Apache Hadoop goes realtime at Facebook},
@@ -51,6 +158,16 @@
   author={Manyika, James and Chui, Michael and Brown, Brad and Bughin, Jacques and Dobbs, Richard and Roxburgh, Charles and Byers, Angela H},
   year={2011}
 }
+@article{van2005linking,
+  title={Linking perceived value and loyalty in location-based mobile services},
+  author={van Riel, Allard CR and Pura, Minna},
+  journal={Managing Service Quality: An International Journal},
+  volume={15},
+  number={6},
+  pages={509--538},
+  year={2005},
+  publisher={Emerald Group Publishing Limited}
+}
 @inproceedings{shvachko2010hadoop,
   title={The hadoop distributed file system},
   author={Shvachko, Konstantin and Kuang, Hairong and Radia, Sanjay and Chansler, Robert},
@@ -59,82 +176,92 @@
   year={2010},
   organization={IEEE}
 }
-
 @article{mehtahadoop,
   title={Hadoop Ecosystem: An Introduction},
   author={Mehta, Sneha and Mehta, Viral}
+}
+
+@misc{apachehadoop,
+  title = {{Apache\texttrademark Hadoop}},
+  howpublished = "\url{http://hadoop.apache.org}",
 }
 
 \end{filecontents*}
 
 
 
-
-\title{Hadoop Challenges in Big Data and Cloud Era}
-\author{Gavin Ni\thanks{Student ID: 2566358 Email: jni001@ec.auckland.ac.nz}}
+\title{Big Data Research and Use Cases for Location Based Service using Mobile Radio Access Networks}
+\author{Gavin Ni \\Qrious Limited, New Zealand \\gavin.ni@qrious.co.nz}
 %\date{}							% Activate to display a given date or no date
-
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords:}} #1}
 \begin{document}
 \maketitle
 \begin{abstract}
-  Living in this fast changing cloud era, not only enterprise customers but also government customers prefer hassle-free cloud services e.g. Software as a Service(SaaS), Platform as a Service(PaaS) and Infrastructure as a Service(IaaS) than the traditional way of buying hardwares and softwares stacks before they can even deploying the service. This trend is particular true to Big Data area e.g. Hadoop system, which requires a fairly large number of hardware resources and deeper knowledge of system administrative skills before they can deploy and use the service since the first Apache Hadoop has released from 2011 \fullcite{manyika2011big}. This research reviews the technical solution of Hadoop and explores the challenges that Big Data engineers facing in order to run Hadoop as a Service(HDaaS).     
+  Location-based services (LBS) provide the ability to find the geographical location of a mobile device and then provide services based on that location. Researches in using Location Based Services using Mobile data have been well established \fullcite{}. Most of these researches are discuss the LBS based on Global Positioning System(GPS) enabled mobile devices \fullcite{}, where people often raised concerns on the data privacy \fullcite{} on the personal information level. This paper is to identify the gap that research in LBS between using GPS data and using Radio Access Networks(RAN) data. Furthermore, discuss use cases and future works for Big Data analytics in LBS using RAN data.
 \end{abstract}
-\section{Introduction}
-  In early days, industries only require RDBMS e.g. Oracle, DB2, MSSQL, MySQL, Postgres etc. to process data up to terabytes and the costs of processing such data increase dramatically when the volume of data increases. Engineers desperately try to develop a system that can process data beyond terabytes in some cost effective ways. In 2008, Yahoo! Engineer Doug Cutting leaded a project which was originally designed to create web page search index on internet, was made as a top Apache project named Apache Hadoop\texttrademark \fullcite{white2012hadoop}. Hadoop system implemented the Hadoop Distributed File System (HDFS) and the MapReduce algorithm published by Google \fullcite{dean2008mapreduce}. Hadoop cluster can scale from under 10 nodes up to tens of thousands nodes. For instance, Yahoo!  has been running the biggest Hadoop cluster in the world of 42,000 nodes to process petabyte data source from Hortonworks Hadoop summit 2011 keynote and Facebook has been running multiple clusters from group of 10 to group of thousands nodes \fullcite{borthakur2011apache}. As Hadoop plays increasingly important role to Big Data, several commercial distribution also available for Enterprise to choose besides open source Apache Hadoop\texttrademark, Pivotal HD\texttrademark, HortonWorks Data Platform\texttrademark and Cloudera Enterprise\texttrademark. The following sections introduce HDFS and MapReduce principal then followed review the industrial Big Data solutions based on Hadoop case studies and their challenges, finally discuss the future Big Data technology trends.
- %\subsection{}
+\keywords{Big Data, Mobile, RAN, LBS}
 
-\section{Apache Hadoop Ecosystem}
+\section{Introduction}
+
+\subsection{Big Data}
+Big Data refers to datasets that grow so large that it is difficult to capture, store, manage, share, analyze and visualize using the typical database software tools \fullcite{}.  Gartner's definition of the 3Vs is still widely used, and in agreement with a consensual definition that states that "Big Data represents the Information assets characterized by such a High Volume, Velocity and Variety to require specific Technology and Analytical Methods for its transformation into Value" \fullcite{}. Typical Big Data sources include Web Data, Event Logs, Censors Data, Social Network Data, Machine Generated etc.
+
+\subsubsection{Characteristics}
+\begin{itemize}
+\item Huge\item Distributed Dispersed over many servers 
+\item Dynamic Items add/deleted/modified continuously
+\item Heterogeneous Many agents access/update data\item Noisy\item Inherent\item Unintentional/Malicious\item Unstructured/semi-structured
+\item No database schema\item Complex interrelationships
+\end{itemize}
+
+\subsubsection{Architecture Framework and Use Cases}
+\begin{itemize}
+\item Offline Analytics\item Near Realtime Analytics 
+\item Realtime Analytics
+\end{itemize}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{big-data-solutions.png}
+  \caption{Big Data Architecture Framework}
+  \label{fig:bigdatasolutions}
+\end{figure}
+
+
+
+\subsection{Location Based Services}
+Based on Localization-Based Systems LBS can be broadly divided:
+
+\textbf{Network-based techniques} utilize the service provider's network infrastructure to identify the location of the handset. The advantage of network-based techniques - from a mobile operator's point of view - is that they can be implemented non-intrusively, without affecting the handsets.
+
+\begin{itemize}
+\item 3G Network\item 4G Network 
+\end{itemize}
+
+\textbf{Handset-based technology} requires installing client software on the handset to determine its location. This technique determines the location of the handset by computing its location by cell identification, signal strengths of the home and neighbouring cells, which is continuously sent to the carrier. In addition, if the handset is also equipped with GPS then significantly more precise location information is sent from the handset to the carrier.
+
+By using the SIM in GSM and UMTS handsets, it is possible to obtain raw radio measurements from the handset. The measurements that are available can include the serving Cell ID, round trip time and signal strength. The type of information obtained via the SIM can differ from what is available from the handset. For example, it may not be possible to obtain any raw measurements from the handset directly, yet still obtain measurements via the SIM.
+
+\textbf{Hybrid positioning systems} use a combination of network-based and handset-based technologies for location determination. One example would be some modes of Assisted GPS, which can both use GPS and network information to compute the location. Both types of data are thus used by the telephone to make the location more accurate (i.e. A-GPS). Alternatively tracking with both systems can also occur by having the phone attain his GPS-location directly from the satellites, and then having the information sent via the network to the person that is trying to locate the telephone. Google Latitude, for instance, allows such mobile phone tracking.
+
+\subsubsection{Metrics}
+\begin{itemize}
+\item Accuracy\item Reliability
+\item Availability
+\item Frequency 
+\end{itemize}
+
+\section{Related Work}
 Apache Hadoop Ecosystem is a framework of various types of complex and evolving tools see Figure \ref{fig:hadoopecosystem}  and components from Apache Foundation which have proficient advantage in solving big Data and Business Intelligence(BI) problems. In \fullcite{mehtahadoop}, the Hadoop tools set had been labeled as Data Management, Data Access, Data Process and Data Storage.
 
 To understand Hadoop Ecosystem and what problem it can solve, in the follow subsections we will explain Hadoop Core system, HDFS and MapReduce, and Hadoop extension tools that make Hadoop core system even powerful and easy of use and maintain. 
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\linewidth]{eco.jpg}
-  \caption{Hadoop Ecosystem}
-  \label{fig:hadoopecosystem}
-\end{figure}
 
-\subsection{Hadoop Core System}
-The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
+\section{Discussion}
 
-\subsubsection{HDFS\texttrademark}
-The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. It has many similarities with existing distributed file systems. However, the differences from other distributed file systems are significant. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. \fullcite{shvachko2010hadoop}
+\section{Summary and Future Research}
 
-
-\begin{figure}
-  \centering
-  \includegraphics[width=\linewidth]{hdfsarchitecture.png}
-  \caption{HDFS Architecture}
-\end{figure}
-
-\subsubsection{YARN and MapReduce}
-YARN is Hadoop job scheduling system for parallel processing of large data sets using MapReduce. see Figure \ref{fig:mr} 
-
-\begin{figure}
-  \centering
-  \includegraphics[width=\linewidth]{hadoopfig2.png}
-  \caption{MapReduce}
-  \label{fig:mr}
-\end{figure}
-
-\subsection{Data Access}
-OOzie, Pig, Mahaut, R and Hive are developed running on Yarn while HBase access data directly off HDFS.
-
-\subsection{Operation Management}
-Tools like Zookeeper, Flume, Sqoop and Ambari are developed for deployment, configuration, diagnostics, and reporting. 
-
-\section{Big Data and Analytics Problem}
-\subsection{Batch Processing}
-\subsection{Near Realtime Processing}
-\subsection{Realtime Processing}
-
-\section{IT Operation Challenges}
-
-\section{Conclusion}
-
-\section{Future Work}
-
+\printglossaries
 \bibliographystyle{apacite}
 \bibliography{\jobname}
 \end{document}  
